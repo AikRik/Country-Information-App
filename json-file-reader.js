@@ -2,7 +2,7 @@ var fs = require("fs")
 
 module.exports = {
 
-    var: function(fileName, callBack) {
+    readJSON: function(fileName, callBack) {
         fs.readFile(fileName, function(err, data) {
 
             if (err) {
